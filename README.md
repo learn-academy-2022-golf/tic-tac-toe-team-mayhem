@@ -15,6 +15,8 @@ we need to create a function, this function will update out tic tac toe board to
 create a new function that will display, "O" we need to create an alternating patter where we can input O as well.
 We have to create a condtitional statement within first person to show case the O.
 - As a user, I can't click on a square that has already been marked.
+branch- no-click
+new function modify onclick function
 - As a user, when either my partner or I win the game (three squares in a row: horizontally, vertically, or diagonally) I can see a notice telling me which player won.
 - As a user, I can't continue playing the game after the game has been won.
 - As a user, if there are no more squares available, I can see a notice telling me that the game has ended.
