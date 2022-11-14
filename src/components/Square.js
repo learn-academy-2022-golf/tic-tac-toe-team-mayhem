@@ -2,8 +2,10 @@ import React from 'react'
 
 const Square = (props) => {
   const handleClick = () => {
-    props.firstPerson(props.index)
-  }
+    if (props.value !== "X" && props.value !== "O")
+    {return props.firstPerson(props.index)}
+    else {alert("This spot is taken")
+    }}
   return (
     <div onClick = {handleClick} className="square">{props.value}</div>
   )
