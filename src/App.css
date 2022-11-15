@@ -1,18 +1,35 @@
 .square {
   height: 200px;
   width: 200px;
-  border: 2px solid black;
+  border: 2px solid orange;
   font-size: 150px;
   text-align: center;
 }
 .gameboard {
+  color:blue;
   display: flex;
   flex-wrap: wrap;
   width: 620px;
-  margin:0 auto
+  margin:0 auto;
+}
+body{
+ background-image:url("https://live.staticflickr.com/5141/5590469313_f28dbbbbae_b.jpg") ;
+ background-repeat:no-repeat;
+ background-size:cover;
+}
+button{
+  padding:5px;
+  height: 50px;
+  width: 100px;
+  border: 2px solid black;
+  text-align: center;
+  margin:0 auto;
+  display: flex;
+  flex-wrap: wrap;
 }
 
-h1 {
-text-align: center;  
+h1,h3 {
+text-align: center;
+color:orange;  
 
 }
